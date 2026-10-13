@@ -1,0 +1,6 @@
+{
+  "/Entities/Geography/Countries": {
+    "operator": "CapitalOf",
+    "operator_definition": "Map a country to its national capital."
+  }
+}

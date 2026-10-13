@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atomqa"
+version = "0.1.0"
+description = "Atomic-QA synthesis code for ATOM"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["openai>=1.30,<3"]
+keywords = ["synthetic-data", "question-answering", "nlp"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Repository = "https://github.com/Lut-hub/ATOM"
+Documentation = "https://github.com/Lut-hub/ATOM/blob/main/docs/pipeline.md"
+Issues = "https://github.com/Lut-hub/ATOM/issues"
+
+[tool.setuptools.packages.find]
+include = ["atomqa*"]

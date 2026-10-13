@@ -1,0 +1,16 @@
+{
+  "Entities": {
+    "definition": "Identifiable entities.",
+    "children": {
+      "Geography": {
+        "definition": "Geographic entities.",
+        "children": {
+          "Countries": {
+            "definition": "Sovereign countries.",
+            "children": {}
+          }
+        }
+      }
+    }
+  }
+}

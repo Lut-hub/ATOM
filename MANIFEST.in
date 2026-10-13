@@ -1,0 +1,6 @@
+include LICENSE README.md .env.example
+recursive-include assets *.json
+recursive-include assets/figures *.png
+recursive-include examples *.json
+include docs/pipeline.md
+recursive-include tests *.py

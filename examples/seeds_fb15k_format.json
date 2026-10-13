@@ -1,0 +1,12 @@
+[
+  {
+    "subject": "France",
+    "prompt": "What is the capital of France?",
+    "attribute": "Paris"
+  },
+  {
+    "subject": "Japan",
+    "prompt": "What is the capital of Japan?",
+    "attribute": "Tokyo"
+  }
+]

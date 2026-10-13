@@ -1,0 +1,40 @@
+{
+  "France": {
+    "subject": "France",
+    "category": "/Entities/Geography/Countries",
+    "items": [
+      {
+        "prompt": "What is the capital of France?",
+        "template": "What is the capital of {}?",
+        "attribute": "Paris",
+        "operand": "France",
+        "operator": "CapitalOf",
+        "operator_definition": "Map a country to its national capital.",
+        "output": "Paris",
+        "verification": {
+          "judgement": "pass",
+          "reason": "Hand-authored example fixture; not a model verification log."
+        }
+      }
+    ]
+  },
+  "Japan": {
+    "subject": "Japan",
+    "category": "/Entities/Geography/Countries",
+    "items": [
+      {
+        "prompt": "What is the capital of Japan?",
+        "template": "What is the capital of {}?",
+        "attribute": "Tokyo",
+        "operand": "Japan",
+        "operator": "CapitalOf",
+        "operator_definition": "Map a country to its national capital.",
+        "output": "Tokyo",
+        "verification": {
+          "judgement": "pass",
+          "reason": "Hand-authored example fixture; not a model verification log."
+        }
+      }
+    ]
+  }
+}
